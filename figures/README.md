@@ -2,4 +2,6 @@
 
 `figures/aggregate/` contains aggregate plots and conceptual figures suitable for a lightweight project page.
 
+`figures/paper/` contains the final conceptual figures used by the manuscript.
+
 Qualitative overlays, validation contact sheets, and other figures containing benchmark images are intentionally excluded so that this repository does not redistribute third-party dataset imagery.

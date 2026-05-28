@@ -6,7 +6,7 @@ This repository supports the review article:
 Chenxi Tao and Seung-Kyum Choi  
 George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology
 
-![Prior-availability taxonomy](figures/aggregate/fig1_prior_availability_taxonomy.png)
+![Industrial visual sim-to-real organized by prior availability](figures/paper/intro_prior_availability.png)
 
 ## Overview
 
@@ -55,19 +55,19 @@ The aggregate figures are provided for quick inspection. Qualitative overlays an
 
 ## Selected Aggregate Figures
 
-These figures summarize the review's empirical anchors without redistributing raw benchmark images.
+These figures summarize the review's framing and empirical anchors without redistributing raw benchmark images.
 
-| Prior availability | CAD-as-renderer transfer |
+| Paper framing | Mechanism matrix |
 | --- | --- |
-| ![Prior-availability taxonomy](figures/aggregate/fig1_prior_availability_taxonomy.png) | ![CAD-as-renderer mAP bars](figures/aggregate/fig2b_yolo_b0_b6_map_bars.png) |
+| ![Industrial visual sim-to-real organized by prior availability](figures/paper/intro_prior_availability.png) | ![Prior mechanism matrix](figures/paper/prior_mechanism_matrix.png) |
 
-| CAD at test time | CAD-unavailable anchors |
+| CAD-as-renderer transfer | CAD at test time |
 | --- | --- |
-| ![CAD-at-test-time depth fusion AUROC](figures/aggregate/fig3b_depth_fusion_auroc.png) | ![CAD-unavailable AUROC bars](figures/aggregate/fig4b_no_cad_auroc_bars.png) |
+| ![CAD-as-renderer mAP bars](figures/aggregate/fig2b_yolo_b0_b6_map_bars.png) | ![CAD-at-test-time depth fusion AUROC](figures/aggregate/fig3b_depth_fusion_auroc.png) |
 
-| Normal-reference budget |
-| --- |
-| ![Normal-reference budget curves](figures/aggregate/fig5_normal_reference_budget.png) |
+| CAD-unavailable anchors | Normal-reference budget |
+| --- | --- |
+| ![CAD-unavailable AUROC bars](figures/aggregate/fig4b_no_cad_auroc_bars.png) | ![Normal-reference budget curves](figures/aggregate/fig5_normal_reference_budget.png) |
 
 ## Keywords
 
