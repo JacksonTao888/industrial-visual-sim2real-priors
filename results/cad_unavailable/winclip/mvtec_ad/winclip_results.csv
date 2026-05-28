@@ -1,0 +1,16 @@
+dataset,category,run_dir,class_name,k_shot,scales,train_batch_size,eval_batch_size,num_workers,seed,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+mvtec_ad,bottle,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/bottle,bottle,0,"2,3",1,8,4,42,0.9865078926086426,0.9677419066429138,0.6291924715042114,0.1480787843465805
+mvtec_ad,cable,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/cable,cable,0,"2,3",1,8,4,42,0.8493252992630005,0.8376963138580322,0.6865899562835693,0.0968417301774025
+mvtec_ad,capsule,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/capsule,capsule,0,"2,3",1,8,4,42,0.6627442836761475,0.9304347634315491,0.6315495371818542,0.02518424391746521
+mvtec_ad,carpet,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/carpet,carpet,0,"2,3",1,8,4,42,0.993178129196167,0.9720670580863953,0.7153745889663696,0.0740189477801323
+mvtec_ad,grid,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/grid,grid,0,"2,3",1,8,4,42,0.9916458129882812,0.9734513163566589,0.6630212664604187,0.014280600473284721
+mvtec_ad,hazelnut,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/hazelnut,hazelnut,0,"2,3",1,8,4,42,0.9253571033477783,0.881118893623352,0.6965913772583008,0.06452104449272156
+mvtec_ad,leather,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/leather,leather,0,"2,3",1,8,4,42,1.0,0.994535505771637,0.6684399247169495,0.014571701176464558
+mvtec_ad,metal_nut,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/metal_nut,metal nut,0,"2,3",1,8,4,42,0.9545454382896423,0.9444444179534912,0.5525293350219727,0.2480616271495819
+mvtec_ad,pill,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/pill,pill,0,"2,3",1,8,4,42,0.509001612663269,0.9120520949363708,0.29271742701530457,0.06060338020324707
+mvtec_ad,screw,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/screw,screw,0,"2,3",1,8,4,42,0.7198196649551392,0.8571428656578064,0.5903413891792297,0.008630780503153801
+mvtec_ad,tile,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/tile,tile,0,"2,3",1,8,4,42,0.9992785453796387,0.988095223903656,0.6516352295875549,0.18131797015666962
+mvtec_ad,toothbrush,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/toothbrush,toothbrush,0,"2,3",1,8,4,42,0.8527777194976807,0.8709677457809448,0.44680267572402954,0.025260459631681442
+mvtec_ad,transistor,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/transistor,transistor,0,"2,3",1,8,4,42,0.8883333206176758,0.7777777910232544,0.8615028262138367,0.30010977387428284
+mvtec_ad,wood,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/wood,wood,0,"2,3",1,8,4,42,0.9763157367706299,0.9440000057220459,0.611609697341919,0.02196693792939186
+mvtec_ad,zipper,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/mvtec_ad/zipper,zipper,0,"2,3",1,8,4,42,0.9096638560295105,0.9256198406219482,0.6084025502204895,0.0530577227473259

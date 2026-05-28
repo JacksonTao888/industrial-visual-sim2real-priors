@@ -1,0 +1,16 @@
+dataset,category,run_dir,num_neighbours,encoder_name,masking,auto_masking,coreset_subsampling,sampling_ratio,precision,train_batch_size,eval_batch_size,num_workers,seed,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+mvtec_ad,bottle,experiments/runs/no_cad/anomalydino_large/mvtec_ad/bottle,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,1.0,0.9919999837875366,0.9870482087135315,0.7698786854743958
+mvtec_ad,cable,experiments/runs/no_cad/anomalydino_large/mvtec_ad/cable,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9175412058830261,0.8901098966598511,0.9191911816596985,0.5649899840354919
+mvtec_ad,capsule,experiments/runs/no_cad/anomalydino_large/mvtec_ad/capsule,1,dinov2_vit_large_14,True,True,False,0.1,float32,8,8,4,42,0.9545273184776306,0.9680365324020386,0.9832834005355835,0.4816438555717468
+mvtec_ad,carpet,experiments/runs/no_cad/anomalydino_large/mvtec_ad/carpet,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9927768707275391,0.9830508232116699,0.9830710887908936,0.49897584319114685
+mvtec_ad,grid,experiments/runs/no_cad/anomalydino_large/mvtec_ad/grid,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9999999403953552,0.991150438785553,0.9849826693534851,0.34760162234306335
+mvtec_ad,hazelnut,experiments/runs/no_cad/anomalydino_large/mvtec_ad/hazelnut,1,dinov2_vit_large_14,True,True,False,0.1,float32,8,8,4,42,0.9910714626312256,0.9714285731315613,0.9933340549468994,0.729793906211853
+mvtec_ad,leather,experiments/runs/no_cad/anomalydino_large/mvtec_ad/leather,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9962636232376099,0.989130437374115,0.9777582883834839,0.3256797194480896
+mvtec_ad,metal_nut,experiments/runs/no_cad/anomalydino_large/mvtec_ad/metal_nut,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9995113015174866,0.9892473220825195,0.9683679342269897,0.7392371892929077
+mvtec_ad,pill,experiments/runs/no_cad/anomalydino_large/mvtec_ad/pill,1,dinov2_vit_large_14,True,True,False,0.1,float32,8,8,4,42,0.9776322841644287,0.9679715037345886,0.9534947872161865,0.5925000309944153
+mvtec_ad,screw,experiments/runs/no_cad/anomalydino_large/mvtec_ad/screw,1,dinov2_vit_large_14,True,True,False,0.1,float32,8,8,4,42,0.9293912649154663,0.9294605851173401,0.9747084975242615,0.39196279644966125
+mvtec_ad,tile,experiments/runs/no_cad/anomalydino_large/mvtec_ad/tile,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,1.0,0.9940119981765747,0.944953978061676,0.5646935105323792
+mvtec_ad,toothbrush,experiments/runs/no_cad/anomalydino_large/mvtec_ad/toothbrush,1,dinov2_vit_large_14,True,True,False,0.1,float32,8,8,4,42,0.9999999403953552,0.9830508232116699,0.9790719747543335,0.4223233461380005
+mvtec_ad,transistor,experiments/runs/no_cad/anomalydino_large/mvtec_ad/transistor,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9795833230018616,0.9113923907279968,0.8968715667724609,0.4726489782333374
+mvtec_ad,wood,experiments/runs/no_cad/anomalydino_large/mvtec_ad/wood,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9885965585708618,0.9666666388511658,0.8913113474845886,0.5139391422271729
+mvtec_ad,zipper,experiments/runs/no_cad/anomalydino_large/mvtec_ad/zipper,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9942226409912109,0.9789029359817505,0.9568207859992981,0.5057297945022583

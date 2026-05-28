@@ -1,0 +1,4 @@
+dataset,category,run_dir,backbone,layers,coreset_sampling_ratio,num_neighbors,train_batch_size,eval_batch_size,num_workers,seed,train_budget_ratio,train_budget_original_count,train_budget_count,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+mvtec_ad,toothbrush,experiments/runs/no_cad/budget_ablation/patchcore/budget_005/mvtec_ad/toothbrush,wide_resnet50_2,"layer2,layer3",0.1,9,32,32,8,42,0.05,60,3,0.8861111402511597,0.90625,0.981308102607727,0.5681246519088745
+mvtec_ad,capsule,experiments/runs/no_cad/budget_ablation/patchcore/budget_005/mvtec_ad/capsule,wide_resnet50_2,"layer2,layer3",0.1,9,32,32,8,42,0.05,219,11,0.859194278717041,0.943231463432312,0.9870688319206238,0.49035316705703735
+mvtec_ad,cable,experiments/runs/no_cad/budget_ablation/patchcore/budget_005/mvtec_ad/cable,wide_resnet50_2,"layer2,layer3",0.1,9,32,32,8,42,0.05,224,12,0.9606446623802185,0.9139785170555115,0.9772366285324097,0.6115664839744568

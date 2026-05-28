@@ -1,0 +1,36 @@
+# Local environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw datasets and derived data mirrors
+datasets/
+data/raw/
+data/derived/
+data/interim/
+
+# Training artifacts and model weights
+runs/
+outputs/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Local manuscript and build products
+manuscript/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.pdfsync
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

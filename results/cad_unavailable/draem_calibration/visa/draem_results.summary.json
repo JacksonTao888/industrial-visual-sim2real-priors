@@ -1,0 +1,198 @@
+{
+  "method_family": "Synthetic anomaly generation / DRAEM",
+  "dataset": "visa",
+  "result_dir": "experiments/runs/no_cad/draem_calibration/visa",
+  "expected_category_count": 12,
+  "completed_category_count": 2,
+  "completed_categories": [
+    "capsules",
+    "macaroni2"
+  ],
+  "missing_categories": [
+    "candle",
+    "cashew",
+    "chewinggum",
+    "fryum",
+    "macaroni1",
+    "pcb1",
+    "pcb2",
+    "pcb3",
+    "pcb4",
+    "pipe_fryum"
+  ],
+  "unexpected_categories": [],
+  "is_complete": false,
+  "config_values": {
+    "dtd_dir": [
+      "/home/ctao40/sim2real_industrial_review/datasets/dtd"
+    ],
+    "enable_sspcab": [
+      "False"
+    ],
+    "sspcab_lambda": [
+      "0.1"
+    ],
+    "beta_min": [
+      "0.1"
+    ],
+    "beta_max": [
+      "1.0"
+    ],
+    "max_epochs": [
+      "999"
+    ],
+    "max_steps": [
+      "1000"
+    ],
+    "check_val_every_n_epoch": [
+      "None"
+    ],
+    "train_batch_size": [
+      "8"
+    ],
+    "eval_batch_size": [
+      "16"
+    ],
+    "num_workers": [
+      "4"
+    ],
+    "seed": [
+      "42"
+    ]
+  },
+  "metrics": {
+    "image_AUROC": {
+      "mean": 0.6369000375270844,
+      "median": 0.6369000375270844,
+      "min": {
+        "category": "macaroni2",
+        "value": 0.5038000345230103
+      },
+      "max": {
+        "category": "capsules",
+        "value": 0.7700000405311584
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "macaroni2",
+          "value": 0.5038000345230103
+        },
+        {
+          "category": "capsules",
+          "value": 0.7700000405311584
+        }
+      ]
+    },
+    "image_F1Score": {
+      "mean": 0.7349270880222321,
+      "median": 0.7349270880222321,
+      "min": {
+        "category": "macaroni2",
+        "value": 0.6576271057128906
+      },
+      "max": {
+        "category": "capsules",
+        "value": 0.8122270703315735
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "macaroni2",
+          "value": 0.6576271057128906
+        },
+        {
+          "category": "capsules",
+          "value": 0.8122270703315735
+        }
+      ]
+    },
+    "pixel_AUROC": {
+      "mean": 0.8901504278182983,
+      "median": 0.8901504278182983,
+      "min": {
+        "category": "capsules",
+        "value": 0.8456666469573975
+      },
+      "max": {
+        "category": "macaroni2",
+        "value": 0.9346342086791992
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "capsules",
+          "value": 0.8456666469573975
+        },
+        {
+          "category": "macaroni2",
+          "value": 0.9346342086791992
+        }
+      ]
+    },
+    "pixel_F1Score": {
+      "mean": 0.07023566262796521,
+      "median": 0.07023566262796521,
+      "min": {
+        "category": "macaroni2",
+        "value": 0.01523394975811243
+      },
+      "max": {
+        "category": "capsules",
+        "value": 0.125237375497818
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "macaroni2",
+          "value": 0.01523394975811243
+        },
+        {
+          "category": "capsules",
+          "value": 0.125237375497818
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "dataset": "visa",
+      "category": "capsules",
+      "run_dir": "experiments/runs/no_cad/draem_calibration/visa/capsules",
+      "dtd_dir": "/home/ctao40/sim2real_industrial_review/datasets/dtd",
+      "enable_sspcab": false,
+      "sspcab_lambda": 0.1,
+      "beta_min": 0.1,
+      "beta_max": 1.0,
+      "max_epochs": 999,
+      "max_steps": 1000,
+      "check_val_every_n_epoch": null,
+      "train_batch_size": 8,
+      "eval_batch_size": 16,
+      "num_workers": 4,
+      "seed": 42,
+      "image_AUROC": 0.7700000405311584,
+      "image_F1Score": 0.8122270703315735,
+      "pixel_AUROC": 0.8456666469573975,
+      "pixel_F1Score": 0.125237375497818
+    },
+    {
+      "dataset": "visa",
+      "category": "macaroni2",
+      "run_dir": "experiments/runs/no_cad/draem_calibration/visa/macaroni2",
+      "dtd_dir": "/home/ctao40/sim2real_industrial_review/datasets/dtd",
+      "enable_sspcab": false,
+      "sspcab_lambda": 0.1,
+      "beta_min": 0.1,
+      "beta_max": 1.0,
+      "max_epochs": 999,
+      "max_steps": 1000,
+      "check_val_every_n_epoch": null,
+      "train_batch_size": 8,
+      "eval_batch_size": 16,
+      "num_workers": 4,
+      "seed": 42,
+      "image_AUROC": 0.5038000345230103,
+      "image_F1Score": 0.6576271057128906,
+      "pixel_AUROC": 0.9346342086791992,
+      "pixel_F1Score": 0.01523394975811243
+    }
+  ],
+  "csv": "experiments/runs/no_cad/draem_calibration/visa/draem_results.csv"
+}

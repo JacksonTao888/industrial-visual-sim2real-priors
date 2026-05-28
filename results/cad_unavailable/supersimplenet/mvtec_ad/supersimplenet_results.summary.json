@@ -1,0 +1,160 @@
+{
+  "method_family": "Feature-level synthetic anomaly generation / SuperSimpleNet",
+  "dataset": "mvtec_ad",
+  "result_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/supersimplenet/mvtec_ad",
+  "expected_category_count": 15,
+  "completed_category_count": 1,
+  "completed_categories": [
+    "toothbrush"
+  ],
+  "missing_categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "unexpected_categories": [],
+  "is_complete": false,
+  "config_values": {
+    "perlin_threshold": [
+      "0.2"
+    ],
+    "backbone": [
+      "wide_resnet50_2.tv_in1k"
+    ],
+    "layers": [
+      "layer2,layer3"
+    ],
+    "adapt_cls_features": [
+      "False"
+    ],
+    "max_epochs": [
+      "1"
+    ],
+    "max_steps": [
+      "20"
+    ],
+    "check_val_every_n_epoch": [
+      "None"
+    ],
+    "train_batch_size": [
+      "16"
+    ],
+    "eval_batch_size": [
+      "16"
+    ],
+    "num_workers": [
+      "4"
+    ],
+    "seed": [
+      "42"
+    ]
+  },
+  "metrics": {
+    "image_AUROC": {
+      "mean": 0.4861111342906952,
+      "median": 0.4861111342906952,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.4861111342906952
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.4861111342906952
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.4861111342906952
+        }
+      ]
+    },
+    "image_F1Score": {
+      "mean": 0.8169013857841492,
+      "median": 0.8169013857841492,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.8169013857841492
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.8169013857841492
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.8169013857841492
+        }
+      ]
+    },
+    "pixel_AUROC": {
+      "mean": 0.47927990555763245,
+      "median": 0.47927990555763245,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.47927990555763245
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.47927990555763245
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.47927990555763245
+        }
+      ]
+    },
+    "pixel_F1Score": {
+      "mean": 0.11369604617357254,
+      "median": 0.11369604617357254,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.11369604617357254
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.11369604617357254
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.11369604617357254
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "toothbrush",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/supersimplenet/mvtec_ad/toothbrush",
+      "perlin_threshold": 0.2,
+      "backbone": "wide_resnet50_2.tv_in1k",
+      "layers": "layer2,layer3",
+      "adapt_cls_features": false,
+      "max_epochs": 1,
+      "max_steps": 20,
+      "check_val_every_n_epoch": null,
+      "train_batch_size": 16,
+      "eval_batch_size": 16,
+      "num_workers": 4,
+      "seed": 42,
+      "image_AUROC": 0.4861111342906952,
+      "image_F1Score": 0.8169013857841492,
+      "pixel_AUROC": 0.47927990555763245,
+      "pixel_F1Score": 0.11369604617357254
+    }
+  ],
+  "csv": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/supersimplenet/mvtec_ad/supersimplenet_results.csv"
+}

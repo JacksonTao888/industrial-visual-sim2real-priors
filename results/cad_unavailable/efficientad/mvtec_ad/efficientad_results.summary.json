@@ -1,0 +1,699 @@
+{
+  "method_family": "Teacher-student / EfficientAD",
+  "dataset": "mvtec_ad",
+  "result_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad",
+  "expected_category_count": 15,
+  "completed_category_count": 15,
+  "completed_categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "missing_categories": [],
+  "unexpected_categories": [],
+  "is_complete": true,
+  "config_values": {
+    "imagenet_dir": [
+      "/home/ctao40/sim2real_industrial_review/datasets/imagenette"
+    ],
+    "model_size": [
+      "small"
+    ],
+    "lr": [
+      "0.0001"
+    ],
+    "weight_decay": [
+      "1e-05"
+    ],
+    "padding": [
+      "False"
+    ],
+    "pad_maps": [
+      "True"
+    ],
+    "max_epochs": [
+      "100"
+    ],
+    "max_steps": [
+      "None"
+    ],
+    "check_val_every_n_epoch": [
+      "100"
+    ],
+    "train_batch_size": [
+      "1"
+    ],
+    "eval_batch_size": [
+      "32"
+    ],
+    "num_workers": [
+      "8"
+    ],
+    "seed": [
+      "42"
+    ]
+  },
+  "metrics": {
+    "image_AUROC": {
+      "mean": 0.9748846371968587,
+      "median": 0.9888888597488403,
+      "min": {
+        "category": "capsule",
+        "value": 0.899481475353241
+      },
+      "max": {
+        "category": "grid",
+        "value": 1.0
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "capsule",
+          "value": 0.899481475353241
+        },
+        {
+          "category": "hazelnut",
+          "value": 0.9246429204940796
+        },
+        {
+          "category": "cable",
+          "value": 0.9424662590026855
+        },
+        {
+          "category": "transistor",
+          "value": 0.9524999856948853
+        },
+        {
+          "category": "screw",
+          "value": 0.9751998782157898
+        },
+        {
+          "category": "wood",
+          "value": 0.980701744556427
+        },
+        {
+          "category": "pill",
+          "value": 0.9841789603233337
+        },
+        {
+          "category": "toothbrush",
+          "value": 0.9888888597488403
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.9902248382568359
+        },
+        {
+          "category": "zipper",
+          "value": 0.9918592572212219
+        },
+        {
+          "category": "carpet",
+          "value": 0.9951845407485962
+        },
+        {
+          "category": "leather",
+          "value": 0.99830162525177
+        },
+        {
+          "category": "tile",
+          "value": 0.9996392130851746
+        },
+        {
+          "category": "bottle",
+          "value": 1.0
+        },
+        {
+          "category": "grid",
+          "value": 1.0
+        }
+      ]
+    },
+    "image_F1Score": {
+      "mean": 0.9552960594495138,
+      "median": 0.970802903175354,
+      "min": {
+        "category": "hazelnut",
+        "value": 0.8815789222717285
+      },
+      "max": {
+        "category": "bottle",
+        "value": 0.9919999837875366
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "hazelnut",
+          "value": 0.8815789222717285
+        },
+        {
+          "category": "cable",
+          "value": 0.8888888955116272
+        },
+        {
+          "category": "transistor",
+          "value": 0.8999999761581421
+        },
+        {
+          "category": "capsule",
+          "value": 0.9150943160057068
+        },
+        {
+          "category": "wood",
+          "value": 0.9516128897666931
+        },
+        {
+          "category": "screw",
+          "value": 0.9539749026298523
+        },
+        {
+          "category": "toothbrush",
+          "value": 0.9666666388511658
+        },
+        {
+          "category": "pill",
+          "value": 0.970802903175354
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.97826087474823
+        },
+        {
+          "category": "zipper",
+          "value": 0.9792531132698059
+        },
+        {
+          "category": "leather",
+          "value": 0.9834254384040833
+        },
+        {
+          "category": "tile",
+          "value": 0.988095223903656
+        },
+        {
+          "category": "carpet",
+          "value": 0.9886363744735718
+        },
+        {
+          "category": "grid",
+          "value": 0.991150438785553
+        },
+        {
+          "category": "bottle",
+          "value": 0.9919999837875366
+        }
+      ]
+    },
+    "pixel_AUROC": {
+      "mean": 0.9511547883351644,
+      "median": 0.9562653303146362,
+      "min": {
+        "category": "wood",
+        "value": 0.8487306833267212
+      },
+      "max": {
+        "category": "pill",
+        "value": 0.9869242906570435
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "wood",
+          "value": 0.8487306833267212
+        },
+        {
+          "category": "tile",
+          "value": 0.9014957547187805
+        },
+        {
+          "category": "grid",
+          "value": 0.9348892569541931
+        },
+        {
+          "category": "transistor",
+          "value": 0.9368832111358643
+        },
+        {
+          "category": "hazelnut",
+          "value": 0.9408549666404724
+        },
+        {
+          "category": "carpet",
+          "value": 0.9504680633544922
+        },
+        {
+          "category": "capsule",
+          "value": 0.9548207521438599
+        },
+        {
+          "category": "toothbrush",
+          "value": 0.9562653303146362
+        },
+        {
+          "category": "zipper",
+          "value": 0.9609694480895996
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.9723756313323975
+        },
+        {
+          "category": "leather",
+          "value": 0.9753808379173279
+        },
+        {
+          "category": "bottle",
+          "value": 0.981568455696106
+        },
+        {
+          "category": "cable",
+          "value": 0.9817782640457153
+        },
+        {
+          "category": "screw",
+          "value": 0.9839168787002563
+        },
+        {
+          "category": "pill",
+          "value": 0.9869242906570435
+        }
+      ]
+    },
+    "pixel_F1Score": {
+      "mean": 0.6264930506547292,
+      "median": 0.6467406749725342,
+      "min": {
+        "category": "screw",
+        "value": 0.49068403244018555
+      },
+      "max": {
+        "category": "bottle",
+        "value": 0.7981151938438416
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "screw",
+          "value": 0.49068403244018555
+        },
+        {
+          "category": "toothbrush",
+          "value": 0.49982908368110657
+        },
+        {
+          "category": "wood",
+          "value": 0.5156636238098145
+        },
+        {
+          "category": "capsule",
+          "value": 0.516191303730011
+        },
+        {
+          "category": "grid",
+          "value": 0.5183452367782593
+        },
+        {
+          "category": "leather",
+          "value": 0.5520322322845459
+        },
+        {
+          "category": "hazelnut",
+          "value": 0.5681653022766113
+        },
+        {
+          "category": "transistor",
+          "value": 0.6467406749725342
+        },
+        {
+          "category": "cable",
+          "value": 0.6652653217315674
+        },
+        {
+          "category": "carpet",
+          "value": 0.6708974838256836
+        },
+        {
+          "category": "zipper",
+          "value": 0.7094874978065491
+        },
+        {
+          "category": "pill",
+          "value": 0.7177136540412903
+        },
+        {
+          "category": "tile",
+          "value": 0.732484757900238
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.7957803606987
+        },
+        {
+          "category": "bottle",
+          "value": 0.7981151938438416
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "bottle",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/bottle",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 1.0,
+      "image_F1Score": 0.9919999837875366,
+      "pixel_AUROC": 0.981568455696106,
+      "pixel_F1Score": 0.7981151938438416
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/cable",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9424662590026855,
+      "image_F1Score": 0.8888888955116272,
+      "pixel_AUROC": 0.9817782640457153,
+      "pixel_F1Score": 0.6652653217315674
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "capsule",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/capsule",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.899481475353241,
+      "image_F1Score": 0.9150943160057068,
+      "pixel_AUROC": 0.9548207521438599,
+      "pixel_F1Score": 0.516191303730011
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "carpet",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/carpet",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9951845407485962,
+      "image_F1Score": 0.9886363744735718,
+      "pixel_AUROC": 0.9504680633544922,
+      "pixel_F1Score": 0.6708974838256836
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "grid",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/grid",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 1.0,
+      "image_F1Score": 0.991150438785553,
+      "pixel_AUROC": 0.9348892569541931,
+      "pixel_F1Score": 0.5183452367782593
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/hazelnut",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9246429204940796,
+      "image_F1Score": 0.8815789222717285,
+      "pixel_AUROC": 0.9408549666404724,
+      "pixel_F1Score": 0.5681653022766113
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "leather",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/leather",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.99830162525177,
+      "image_F1Score": 0.9834254384040833,
+      "pixel_AUROC": 0.9753808379173279,
+      "pixel_F1Score": 0.5520322322845459
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "metal_nut",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/metal_nut",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9902248382568359,
+      "image_F1Score": 0.97826087474823,
+      "pixel_AUROC": 0.9723756313323975,
+      "pixel_F1Score": 0.7957803606987
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "pill",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/pill",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9841789603233337,
+      "image_F1Score": 0.970802903175354,
+      "pixel_AUROC": 0.9869242906570435,
+      "pixel_F1Score": 0.7177136540412903
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "screw",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/screw",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9751998782157898,
+      "image_F1Score": 0.9539749026298523,
+      "pixel_AUROC": 0.9839168787002563,
+      "pixel_F1Score": 0.49068403244018555
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "tile",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/tile",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9996392130851746,
+      "image_F1Score": 0.988095223903656,
+      "pixel_AUROC": 0.9014957547187805,
+      "pixel_F1Score": 0.732484757900238
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "toothbrush",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/toothbrush",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9888888597488403,
+      "image_F1Score": 0.9666666388511658,
+      "pixel_AUROC": 0.9562653303146362,
+      "pixel_F1Score": 0.49982908368110657
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/transistor",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9524999856948853,
+      "image_F1Score": 0.8999999761581421,
+      "pixel_AUROC": 0.9368832111358643,
+      "pixel_F1Score": 0.6467406749725342
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "wood",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/wood",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.980701744556427,
+      "image_F1Score": 0.9516128897666931,
+      "pixel_AUROC": 0.8487306833267212,
+      "pixel_F1Score": 0.5156636238098145
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "zipper",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/zipper",
+      "imagenet_dir": "/home/ctao40/sim2real_industrial_review/datasets/imagenette",
+      "model_size": "small",
+      "lr": 0.0001,
+      "weight_decay": 1e-05,
+      "padding": false,
+      "pad_maps": true,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": 100,
+      "train_batch_size": 1,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9918592572212219,
+      "image_F1Score": 0.9792531132698059,
+      "pixel_AUROC": 0.9609694480895996,
+      "pixel_F1Score": 0.7094874978065491
+    }
+  ],
+  "csv": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/efficientad/mvtec_ad/efficientad_results.csv"
+}

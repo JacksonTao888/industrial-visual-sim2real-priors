@@ -1,0 +1,4 @@
+dataset,category,run_dir,backbone,layers,coreset_sampling_ratio,num_neighbors,train_batch_size,eval_batch_size,num_workers,seed,train_budget_ratio,train_budget_original_count,train_budget_count,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+visa,macaroni2,experiments/runs/no_cad/budget_ablation/patchcore/budget_010/visa/macaroni2,wide_resnet50_2,"layer2,layer3",0.1,9,32,32,8,42,0.1,900,90,0.624299943447113,0.6913580298423767,0.9559638500213623,0.05753827840089798
+visa,capsules,experiments/runs/no_cad/budget_ablation/patchcore/budget_010/visa/capsules,wide_resnet50_2,"layer2,layer3",0.1,9,32,32,8,42,0.1,542,55,0.7024999856948853,0.7686274647712708,0.9719045162200928,0.5005705952644348
+visa,pcb1,experiments/runs/no_cad/budget_ablation/patchcore/budget_010/visa/pcb1,wide_resnet50_2,"layer2,layer3",0.1,9,32,32,8,42,0.1,904,91,0.9003000259399414,0.8229166865348816,0.9946781396865845,0.7534052133560181

@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+PROJECT_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$PROJECT_ROOT"
+
+conda run --no-capture-output -n sim2real python experiments/run_efficientad_anomalib.py \
+  --dataset mvtec_ad \
+  --categories all \
+  --train-batch-size 1 \
+  --eval-batch-size 32 \
+  --num-workers 8 \
+  --model-size small \
+  --max-epochs 100 \
+  --check-val-every-n-epoch 100

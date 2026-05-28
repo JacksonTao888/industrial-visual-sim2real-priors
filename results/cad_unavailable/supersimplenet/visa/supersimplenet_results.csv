@@ -1,0 +1,3 @@
+dataset,category,run_dir,perlin_threshold,backbone,layers,adapt_cls_features,max_epochs,max_steps,check_val_every_n_epoch,train_batch_size,eval_batch_size,num_workers,seed,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+visa,capsules,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/supersimplenet/visa/capsules,0.2,wide_resnet50_2.tv_in1k,"layer2,layer3",False,1,20,,16,16,4,42,0.47050002217292786,0.0,0.5348474383354187,0.007511727046221495
+visa,macaroni2,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/supersimplenet/visa/macaroni2,0.2,wide_resnet50_2.tv_in1k,"layer2,layer3",False,1,20,,16,16,4,42,0.5173999667167664,0.08771929889917374,0.29949602484703064,0.00029530967003665864

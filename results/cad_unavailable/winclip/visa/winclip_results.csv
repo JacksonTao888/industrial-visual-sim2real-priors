@@ -1,0 +1,13 @@
+dataset,category,run_dir,class_name,k_shot,scales,train_batch_size,eval_batch_size,num_workers,seed,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+visa,candle,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/candle,candle,0,"2,3",1,8,4,42,0.9487000107765198,0.8994709253311157,0.7494280934333801,0.0026764620561152697
+visa,capsules,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/capsules,capsules,0,"2,3",1,8,4,42,0.7935000061988831,0.8017621040344238,0.7570639848709106,0.02482377178966999
+visa,cashew,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/cashew,cashew,0,"2,3",1,8,4,42,0.9145999550819397,0.8832487463951111,0.6794223189353943,0.050877004861831665
+visa,chewinggum,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/chewinggum,chewing gum,0,"2,3",1,8,4,42,0.9694000482559204,0.9479166865348816,0.7610275745391846,0.025718070566654205
+visa,fryum,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/fryum,fryum,0,"2,3",1,8,4,42,0.7355999946594238,0.7965368032455444,0.5954371094703674,0.06350009888410568
+visa,macaroni1,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/macaroni1,macaroni,0,"2,3",1,8,4,42,0.7679000496864319,0.7338709831237793,0.6212588548660278,0.0022781905718147755
+visa,macaroni2,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/macaroni2,macaroni,0,"2,3",1,8,4,42,0.6490500569343567,0.6783216595649719,0.5694513916969299,0.0006983380299061537
+visa,pcb1,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/pcb1,printed circuit board,0,"2,3",1,8,4,42,0.7235000133514404,0.7118644118309021,0.4178599715232849,0.010867311619222164
+visa,pcb2,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/pcb2,printed circuit board,0,"2,3",1,8,4,42,0.47200000286102295,0.664383590221405,0.44088512659072876,0.004170822445303202
+visa,pcb3,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/pcb3,printed circuit board,0,"2,3",1,8,4,42,0.6611385941505432,0.6804123520851135,0.6453890204429626,0.0
+visa,pcb4,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/pcb4,printed circuit board,0,"2,3",1,8,4,42,0.7554455995559692,0.7368420958518982,0.6039501428604126,0.025950923562049866
+visa,pipe_fryum,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/winclip/visa/pipe_fryum,pipe fryum,0,"2,3",1,8,4,42,0.6722000241279602,0.800000011920929,0.23895078897476196,0.021523918956518173

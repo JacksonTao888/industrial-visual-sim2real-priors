@@ -1,0 +1,609 @@
+{
+  "method_family": "Normal-only memory / PatchCore",
+  "dataset": "mvtec_ad",
+  "result_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad",
+  "expected_category_count": 15,
+  "completed_category_count": 15,
+  "completed_categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "missing_categories": [],
+  "unexpected_categories": [],
+  "is_complete": true,
+  "config_values": {
+    "backbone": [
+      "wide_resnet50_2"
+    ],
+    "layers": [
+      "layer2,layer3"
+    ],
+    "coreset_sampling_ratio": [
+      "0.1"
+    ],
+    "num_neighbors": [
+      "9"
+    ],
+    "train_batch_size": [
+      "32"
+    ],
+    "eval_batch_size": [
+      "32"
+    ],
+    "num_workers": [
+      "8"
+    ],
+    "seed": [
+      "42"
+    ]
+  },
+  "metrics": {
+    "image_AUROC": {
+      "mean": 0.9820151646931966,
+      "median": 0.9899749159812927,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.9055555462837219
+      },
+      "max": {
+        "category": "tile",
+        "value": 1.0
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.9055555462837219
+        },
+        {
+          "category": "pill",
+          "value": 0.9536279439926147
+        },
+        {
+          "category": "screw",
+          "value": 0.9598278999328613
+        },
+        {
+          "category": "zipper",
+          "value": 0.9779411554336548
+        },
+        {
+          "category": "cable",
+          "value": 0.9848201274871826
+        },
+        {
+          "category": "wood",
+          "value": 0.9859648942947388
+        },
+        {
+          "category": "carpet",
+          "value": 0.9867576360702515
+        },
+        {
+          "category": "grid",
+          "value": 0.9899749159812927
+        },
+        {
+          "category": "capsule",
+          "value": 0.9936178922653198
+        },
+        {
+          "category": "transistor",
+          "value": 0.994583249092102
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.997556209564209
+        },
+        {
+          "category": "bottle",
+          "value": 1.0
+        },
+        {
+          "category": "hazelnut",
+          "value": 1.0
+        },
+        {
+          "category": "leather",
+          "value": 1.0
+        },
+        {
+          "category": "tile",
+          "value": 1.0
+        }
+      ]
+    },
+    "image_F1Score": {
+      "mean": 0.9711082577705383,
+      "median": 0.9772727489471436,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.920634925365448
+      },
+      "max": {
+        "category": "leather",
+        "value": 0.994535505771637
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.920634925365448
+        },
+        {
+          "category": "transistor",
+          "value": 0.949999988079071
+        },
+        {
+          "category": "screw",
+          "value": 0.9504132270812988
+        },
+        {
+          "category": "pill",
+          "value": 0.956204354763031
+        },
+        {
+          "category": "wood",
+          "value": 0.9579831957817078
+        },
+        {
+          "category": "grid",
+          "value": 0.9649122953414917
+        },
+        {
+          "category": "cable",
+          "value": 0.967391312122345
+        },
+        {
+          "category": "carpet",
+          "value": 0.9772727489471436
+        },
+        {
+          "category": "capsule",
+          "value": 0.9814814925193787
+        },
+        {
+          "category": "zipper",
+          "value": 0.9831932783126831
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.9837837815284729
+        },
+        {
+          "category": "bottle",
+          "value": 0.9919999837875366
+        },
+        {
+          "category": "hazelnut",
+          "value": 0.9928057789802551
+        },
+        {
+          "category": "tile",
+          "value": 0.9940119981765747
+        },
+        {
+          "category": "leather",
+          "value": 0.994535505771637
+        }
+      ]
+    },
+    "pixel_AUROC": {
+      "mean": 0.980089803536733,
+      "median": 0.9856192469596863,
+      "min": {
+        "category": "wood",
+        "value": 0.9315213561058044
+      },
+      "max": {
+        "category": "leather",
+        "value": 0.9922866821289062
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "wood",
+          "value": 0.9315213561058044
+        },
+        {
+          "category": "tile",
+          "value": 0.9550213813781738
+        },
+        {
+          "category": "transistor",
+          "value": 0.9722598195075989
+        },
+        {
+          "category": "pill",
+          "value": 0.9813077449798584
+        },
+        {
+          "category": "zipper",
+          "value": 0.9814977645874023
+        },
+        {
+          "category": "grid",
+          "value": 0.9832541942596436
+        },
+        {
+          "category": "cable",
+          "value": 0.9846956133842468
+        },
+        {
+          "category": "bottle",
+          "value": 0.9856192469596863
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.9870527386665344
+        },
+        {
+          "category": "hazelnut",
+          "value": 0.9883208870887756
+        },
+        {
+          "category": "screw",
+          "value": 0.9887897968292236
+        },
+        {
+          "category": "toothbrush",
+          "value": 0.9888352155685425
+        },
+        {
+          "category": "capsule",
+          "value": 0.9901953339576721
+        },
+        {
+          "category": "carpet",
+          "value": 0.9906892776489258
+        },
+        {
+          "category": "leather",
+          "value": 0.9922866821289062
+        }
+      ]
+    },
+    "pixel_F1Score": {
+      "mean": 0.580582183599472,
+      "median": 0.6058889031410217,
+      "min": {
+        "category": "screw",
+        "value": 0.368919312953949
+      },
+      "max": {
+        "category": "metal_nut",
+        "value": 0.8401347398757935
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "screw",
+          "value": 0.368919312953949
+        },
+        {
+          "category": "grid",
+          "value": 0.38650551438331604
+        },
+        {
+          "category": "leather",
+          "value": 0.44015270471572876
+        },
+        {
+          "category": "wood",
+          "value": 0.4663684368133545
+        },
+        {
+          "category": "capsule",
+          "value": 0.5171127915382385
+        },
+        {
+          "category": "zipper",
+          "value": 0.5442707538604736
+        },
+        {
+          "category": "toothbrush",
+          "value": 0.5945045948028564
+        },
+        {
+          "category": "transistor",
+          "value": 0.6058889031410217
+        },
+        {
+          "category": "carpet",
+          "value": 0.6070366501808167
+        },
+        {
+          "category": "tile",
+          "value": 0.6186549663543701
+        },
+        {
+          "category": "hazelnut",
+          "value": 0.6323942542076111
+        },
+        {
+          "category": "cable",
+          "value": 0.6395448446273804
+        },
+        {
+          "category": "pill",
+          "value": 0.7204177975654602
+        },
+        {
+          "category": "bottle",
+          "value": 0.7268264889717102
+        },
+        {
+          "category": "metal_nut",
+          "value": 0.8401347398757935
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "bottle",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/bottle",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 1.0,
+      "image_F1Score": 0.9919999837875366,
+      "pixel_AUROC": 0.9856192469596863,
+      "pixel_F1Score": 0.7268264889717102
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "cable",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/cable",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9848201274871826,
+      "image_F1Score": 0.967391312122345,
+      "pixel_AUROC": 0.9846956133842468,
+      "pixel_F1Score": 0.6395448446273804
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "capsule",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/capsule",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9936178922653198,
+      "image_F1Score": 0.9814814925193787,
+      "pixel_AUROC": 0.9901953339576721,
+      "pixel_F1Score": 0.5171127915382385
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "carpet",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/carpet",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9867576360702515,
+      "image_F1Score": 0.9772727489471436,
+      "pixel_AUROC": 0.9906892776489258,
+      "pixel_F1Score": 0.6070366501808167
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "grid",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/grid",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9899749159812927,
+      "image_F1Score": 0.9649122953414917,
+      "pixel_AUROC": 0.9832541942596436,
+      "pixel_F1Score": 0.38650551438331604
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "hazelnut",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/hazelnut",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 1.0,
+      "image_F1Score": 0.9928057789802551,
+      "pixel_AUROC": 0.9883208870887756,
+      "pixel_F1Score": 0.6323942542076111
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "leather",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/leather",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 1.0,
+      "image_F1Score": 0.994535505771637,
+      "pixel_AUROC": 0.9922866821289062,
+      "pixel_F1Score": 0.44015270471572876
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "metal_nut",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/metal_nut",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.997556209564209,
+      "image_F1Score": 0.9837837815284729,
+      "pixel_AUROC": 0.9870527386665344,
+      "pixel_F1Score": 0.8401347398757935
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "pill",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/pill",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9536279439926147,
+      "image_F1Score": 0.956204354763031,
+      "pixel_AUROC": 0.9813077449798584,
+      "pixel_F1Score": 0.7204177975654602
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "screw",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/screw",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9598278999328613,
+      "image_F1Score": 0.9504132270812988,
+      "pixel_AUROC": 0.9887897968292236,
+      "pixel_F1Score": 0.368919312953949
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "tile",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/tile",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 1.0,
+      "image_F1Score": 0.9940119981765747,
+      "pixel_AUROC": 0.9550213813781738,
+      "pixel_F1Score": 0.6186549663543701
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "toothbrush",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/toothbrush",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9055555462837219,
+      "image_F1Score": 0.920634925365448,
+      "pixel_AUROC": 0.9888352155685425,
+      "pixel_F1Score": 0.5945045948028564
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "transistor",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/transistor",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.994583249092102,
+      "image_F1Score": 0.949999988079071,
+      "pixel_AUROC": 0.9722598195075989,
+      "pixel_F1Score": 0.6058889031410217
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "wood",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/wood",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9859648942947388,
+      "image_F1Score": 0.9579831957817078,
+      "pixel_AUROC": 0.9315213561058044,
+      "pixel_F1Score": 0.4663684368133545
+    },
+    {
+      "dataset": "mvtec_ad",
+      "category": "zipper",
+      "run_dir": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/zipper",
+      "backbone": "wide_resnet50_2",
+      "layers": "layer2,layer3",
+      "coreset_sampling_ratio": 0.1,
+      "num_neighbors": 9,
+      "train_batch_size": 32,
+      "eval_batch_size": 32,
+      "num_workers": 8,
+      "seed": 42,
+      "image_AUROC": 0.9779411554336548,
+      "image_F1Score": 0.9831932783126831,
+      "pixel_AUROC": 0.9814977645874023,
+      "pixel_F1Score": 0.5442707538604736
+    }
+  ],
+  "csv": "/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/patchcore/mvtec_ad/patchcore_results.csv"
+}

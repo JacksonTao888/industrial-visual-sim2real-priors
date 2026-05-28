@@ -26,6 +26,31 @@ The paper uses representative empirical anchors rather than a single cross-task 
 
 These anchors are used to show why CAD-guided and CAD-unavailable settings require different metrics and evaluation logic.
 
+## Repository Contents
+
+This repository is a lightweight research artifact. It is not a mirror of the manuscript source, the raw benchmark datasets, or full training logs.
+
+```text
+experiments/        Scripts used to prepare, run, evaluate, and summarize the empirical anchors.
+results/            Lightweight CSV/JSON summaries and selected training diagnostics.
+figures/aggregate/  Aggregate plots and conceptual figures that do not redistribute benchmark image data.
+data/               Dataset download and license notes.
+reproduce/          Reproduction notes for the empirical anchors.
+```
+
+The repository intentionally excludes raw datasets, full `runs/` directories, trained checkpoints, local environments, and manuscript source files. Benchmark datasets should be downloaded from their official sources and used under their original licenses.
+
+## Results Included
+
+The included result files cover:
+
+- CAD-as-renderer transfer on T-LESS/BOP with YOLO detector variants.
+- CAD-at-test-time mask, ROI, and depth-consistency diagnostics.
+- CAD-unavailable anomaly-detection anchors on MVTec AD and VisA.
+- Normal-reference budget ablations for CAD-unavailable inspection.
+
+The aggregate figures are provided for quick inspection. Qualitative overlays and contact sheets containing benchmark images are not included in this repository.
+
 ## Keywords
 
 industrial visual sim-to-real; prior availability; CAD-guided vision; CAD-unavailable inspection; boundary priors; 6D object pose estimation; industrial anomaly detection; render-and-compare verification; domain gap

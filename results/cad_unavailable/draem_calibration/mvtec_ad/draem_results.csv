@@ -1,0 +1,2 @@
+dataset,category,run_dir,dtd_dir,enable_sspcab,sspcab_lambda,beta_min,beta_max,max_epochs,max_steps,check_val_every_n_epoch,train_batch_size,eval_batch_size,num_workers,seed,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+mvtec_ad,toothbrush,experiments/runs/no_cad/draem_calibration/mvtec_ad/toothbrush,/home/ctao40/sim2real_industrial_review/datasets/dtd,False,0.1,0.1,1.0,100,,,8,16,4,42,0.7638888955116272,0.8405796885490417,0.922663152217865,0.2674548625946045

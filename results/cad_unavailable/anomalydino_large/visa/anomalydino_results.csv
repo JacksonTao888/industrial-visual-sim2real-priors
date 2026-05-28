@@ -1,0 +1,13 @@
+dataset,category,run_dir,num_neighbours,encoder_name,masking,auto_masking,coreset_subsampling,sampling_ratio,precision,train_batch_size,eval_batch_size,num_workers,seed,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+visa,candle,experiments/runs/no_cad/anomalydino_large/visa/candle,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9387000799179077,0.8815165758132935,0.9881635904312134,0.39656969904899597
+visa,capsules,experiments/runs/no_cad/anomalydino_large/visa/capsules,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9481667280197144,0.9215686321258545,0.9867269992828369,0.5222244262695312
+visa,cashew,experiments/runs/no_cad/anomalydino_large/visa/cashew,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9697999358177185,0.9399999976158142,0.9903299808502197,0.5949167013168335
+visa,chewinggum,experiments/runs/no_cad/anomalydino_large/visa/chewinggum,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9937999844551086,0.9847715497016907,0.9907515048980713,0.6106709241867065
+visa,fryum,experiments/runs/no_cad/anomalydino_large/visa/fryum,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9475999474525452,0.9230769276618958,0.9076330065727234,0.36072424054145813
+visa,macaroni1,experiments/runs/no_cad/anomalydino_large/visa/macaroni1,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.8927000164985657,0.8140703439712524,0.9712910056114197,0.19434043765068054
+visa,macaroni2,experiments/runs/no_cad/anomalydino_large/visa/macaroni2,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.7795000076293945,0.7094339728355408,0.9336041212081909,0.1397116333246231
+visa,pcb1,experiments/runs/no_cad/anomalydino_large/visa/pcb1,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9243999719619751,0.8571428656578064,0.9875630736351013,0.646100640296936
+visa,pcb2,experiments/runs/no_cad/anomalydino_large/visa/pcb2,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9129999876022339,0.8599033951759338,0.9648061394691467,0.3186756372451782
+visa,pcb3,experiments/runs/no_cad/anomalydino_large/visa/pcb3,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9187127947807312,0.8469387888908386,0.9578353762626648,0.27196285128593445
+visa,pcb4,experiments/runs/no_cad/anomalydino_large/visa/pcb4,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9783167839050293,0.9292929172515869,0.9621801376342773,0.34875547885894775
+visa,pipe_fryum,experiments/runs/no_cad/anomalydino_large/visa/pipe_fryum,1,dinov2_vit_large_14,False,True,False,0.1,float32,8,8,4,42,0.9917999505996704,0.9751243591308594,0.9869617223739624,0.48668473958969116

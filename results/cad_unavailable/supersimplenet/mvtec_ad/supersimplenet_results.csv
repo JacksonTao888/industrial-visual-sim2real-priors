@@ -1,0 +1,2 @@
+dataset,category,run_dir,perlin_threshold,backbone,layers,adapt_cls_features,max_epochs,max_steps,check_val_every_n_epoch,train_batch_size,eval_batch_size,num_workers,seed,image_AUROC,image_F1Score,pixel_AUROC,pixel_F1Score
+mvtec_ad,toothbrush,/home/ctao40/sim2real_industrial_review/experiments/runs/no_cad/supersimplenet/mvtec_ad/toothbrush,0.2,wide_resnet50_2.tv_in1k,"layer2,layer3",False,1,20,,16,16,4,42,0.4861111342906952,0.8169013857841492,0.47927990555763245,0.11369604617357254

@@ -1,0 +1,164 @@
+{
+  "method_family": "Synthetic anomaly generation / DRAEM",
+  "dataset": "mvtec_ad",
+  "result_dir": "experiments/runs/no_cad/draem_calibration/mvtec_ad",
+  "expected_category_count": 15,
+  "completed_category_count": 1,
+  "completed_categories": [
+    "toothbrush"
+  ],
+  "missing_categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "unexpected_categories": [],
+  "is_complete": false,
+  "config_values": {
+    "dtd_dir": [
+      "/home/ctao40/sim2real_industrial_review/datasets/dtd"
+    ],
+    "enable_sspcab": [
+      "False"
+    ],
+    "sspcab_lambda": [
+      "0.1"
+    ],
+    "beta_min": [
+      "0.1"
+    ],
+    "beta_max": [
+      "1.0"
+    ],
+    "max_epochs": [
+      "100"
+    ],
+    "max_steps": [
+      "None"
+    ],
+    "check_val_every_n_epoch": [
+      "None"
+    ],
+    "train_batch_size": [
+      "8"
+    ],
+    "eval_batch_size": [
+      "16"
+    ],
+    "num_workers": [
+      "4"
+    ],
+    "seed": [
+      "42"
+    ]
+  },
+  "metrics": {
+    "image_AUROC": {
+      "mean": 0.7638888955116272,
+      "median": 0.7638888955116272,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.7638888955116272
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.7638888955116272
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.7638888955116272
+        }
+      ]
+    },
+    "image_F1Score": {
+      "mean": 0.8405796885490417,
+      "median": 0.8405796885490417,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.8405796885490417
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.8405796885490417
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.8405796885490417
+        }
+      ]
+    },
+    "pixel_AUROC": {
+      "mean": 0.922663152217865,
+      "median": 0.922663152217865,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.922663152217865
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.922663152217865
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.922663152217865
+        }
+      ]
+    },
+    "pixel_F1Score": {
+      "mean": 0.2674548625946045,
+      "median": 0.2674548625946045,
+      "min": {
+        "category": "toothbrush",
+        "value": 0.2674548625946045
+      },
+      "max": {
+        "category": "toothbrush",
+        "value": 0.2674548625946045
+      },
+      "ranked_low_to_high": [
+        {
+          "category": "toothbrush",
+          "value": 0.2674548625946045
+        }
+      ]
+    }
+  },
+  "rows": [
+    {
+      "dataset": "mvtec_ad",
+      "category": "toothbrush",
+      "run_dir": "experiments/runs/no_cad/draem_calibration/mvtec_ad/toothbrush",
+      "dtd_dir": "/home/ctao40/sim2real_industrial_review/datasets/dtd",
+      "enable_sspcab": false,
+      "sspcab_lambda": 0.1,
+      "beta_min": 0.1,
+      "beta_max": 1.0,
+      "max_epochs": 100,
+      "max_steps": null,
+      "check_val_every_n_epoch": null,
+      "train_batch_size": 8,
+      "eval_batch_size": 16,
+      "num_workers": 4,
+      "seed": 42,
+      "image_AUROC": 0.7638888955116272,
+      "image_F1Score": 0.8405796885490417,
+      "pixel_AUROC": 0.922663152217865,
+      "pixel_F1Score": 0.2674548625946045
+    }
+  ],
+  "csv": "experiments/runs/no_cad/draem_calibration/mvtec_ad/draem_results.csv"
+}
