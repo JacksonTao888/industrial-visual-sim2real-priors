@@ -6,6 +6,8 @@ This repository supports the review article:
 Chenxi Tao and Seung-Kyum Choi  
 George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology
 
+![Prior-availability taxonomy](figures/aggregate/fig1_prior_availability_taxonomy.png)
+
 ## Overview
 
 Industrial visual sim-to-real is often treated as a synthetic-to-real image-transfer problem. This review instead organizes the field by **prior availability**: what evidence is available to ground the deployment decision?
@@ -50,6 +52,22 @@ The included result files cover:
 - Normal-reference budget ablations for CAD-unavailable inspection.
 
 The aggregate figures are provided for quick inspection. Qualitative overlays and contact sheets containing benchmark images are not included in this repository.
+
+## Selected Aggregate Figures
+
+These figures summarize the review's empirical anchors without redistributing raw benchmark images.
+
+| Prior availability | CAD-as-renderer transfer |
+| --- | --- |
+| ![Prior-availability taxonomy](figures/aggregate/fig1_prior_availability_taxonomy.png) | ![CAD-as-renderer mAP bars](figures/aggregate/fig2b_yolo_b0_b6_map_bars.png) |
+
+| CAD at test time | CAD-unavailable anchors |
+| --- | --- |
+| ![CAD-at-test-time depth fusion AUROC](figures/aggregate/fig3b_depth_fusion_auroc.png) | ![CAD-unavailable AUROC bars](figures/aggregate/fig4b_no_cad_auroc_bars.png) |
+
+| Normal-reference budget |
+| --- |
+| ![Normal-reference budget curves](figures/aggregate/fig5_normal_reference_budget.png) |
 
 ## Keywords
 
