@@ -1,0 +1,43 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "ScholarlyArticle",
+  "name": "Prior Availability in Industrial Visual Sim-to-Real: A Review of CAD-Guided and CAD-Unavailable Regimes",
+  "description": "Project metadata for a review of industrial visual sim-to-real organized by prior availability across CAD-guided, boundary-prior, and CAD-unavailable regimes.",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Chenxi",
+      "familyName": "Tao",
+      "email": "ctao40@gatech.edu",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology"
+      }
+    },
+    {
+      "@type": "Person",
+      "givenName": "Seung-Kyum",
+      "familyName": "Choi",
+      "email": "schoi@me.gatech.edu",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology"
+      }
+    }
+  ],
+  "keywords": [
+    "industrial visual sim-to-real",
+    "prior availability",
+    "CAD-guided vision",
+    "CAD-unavailable inspection",
+    "boundary priors",
+    "6D object pose estimation",
+    "industrial anomaly detection",
+    "render-and-compare verification",
+    "domain gap"
+  ],
+  "dateCreated": "2026",
+  "codeRepository": "https://github.com/JacksonTao888/industrial-visual-sim2real-priors",
+  "programmingLanguage": "LaTeX",
+  "license": "UNLICENSED"
+}

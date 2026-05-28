@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If this review helps your work, please cite the arXiv preprint."
+title: "Prior Availability in Industrial Visual Sim-to-Real: A Review of CAD-Guided and CAD-Unavailable Regimes"
+authors:
+  - family-names: Tao
+    given-names: Chenxi
+    email: ctao40@gatech.edu
+    affiliation: "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology"
+  - family-names: Choi
+    given-names: Seung-Kyum
+    email: schoi@me.gatech.edu
+    affiliation: "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology"
+type: article
+year: 2026
+repository-code: "https://github.com/JacksonTao888/industrial-visual-sim2real-priors"
+abstract: "This review organizes industrial visual sim-to-real by prior availability, distinguishing CAD-guided, boundary-prior, and CAD-unavailable regimes for industrial vision deployment."
+keywords:
+  - industrial visual sim-to-real
+  - prior availability
+  - CAD-guided vision
+  - CAD-unavailable inspection
+  - boundary priors
+  - 6D object pose estimation
+  - industrial anomaly detection
+  - render-and-compare verification
+  - domain gap
