@@ -2,7 +2,7 @@
   "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
   "@type": "ScholarlyArticle",
   "name": "Prior Availability in Industrial Visual Sim-to-Real: A Review of CAD-Guided and CAD-Unavailable Regimes",
-  "description": "Project metadata for a review of industrial visual sim-to-real organized by prior availability across CAD-guided, boundary-prior, and CAD-unavailable regimes.",
+  "description": "Lightweight project and reproducibility artifact for a review of industrial visual sim-to-real organized by prior availability across CAD-guided, boundary-prior, and CAD-unavailable regimes.",
   "author": [
     {
       "@type": "Person",
@@ -42,6 +42,21 @@
   "doi": "10.48550/arXiv.2605.30581",
   "url": "https://arxiv.org/abs/2605.30581",
   "codeRepository": "https://github.com/JacksonTao888/industrial-visual-sim2real-priors",
-  "programmingLanguage": "LaTeX",
-  "license": "UNLICENSED"
+  "programmingLanguage": [
+    "Python",
+    "Shell"
+  ],
+  "softwareRequirements": [
+    "numpy",
+    "pandas",
+    "opencv-python",
+    "Pillow",
+    "matplotlib",
+    "scikit-learn",
+    "torch",
+    "torchvision",
+    "ultralytics",
+    "anomalib"
+  ],
+  "license": "NOASSERTION"
 }
