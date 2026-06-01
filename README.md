@@ -6,6 +6,10 @@ This repository supports the review article:
 Chenxi Tao and Seung-Kyum Choi  
 George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology
 
+[[arXiv](https://arxiv.org/abs/2605.30581)]
+[[PDF](https://arxiv.org/pdf/2605.30581)]
+[[DOI](https://doi.org/10.48550/arXiv.2605.30581)]
+
 ![Industrial visual sim-to-real organized by prior availability](figures/paper/intro_prior_availability.png)
 
 ## Overview
@@ -79,12 +83,14 @@ industrial visual sim-to-real; prior availability; CAD-guided vision; CAD-unavai
 @article{tao2026prioravailability,
   title={Prior Availability in Industrial Visual Sim-to-Real: A Review of CAD-Guided and CAD-Unavailable Regimes},
   author={Tao, Chenxi and Choi, Seung-Kyum},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2605.30581},
+  doi={10.48550/arXiv.2605.30581},
+  eprint={2605.30581},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
   year={2026}
 }
 ```
-
-Replace `XXXX.XXXXX` after arXiv assigns the identifier.
 
 ## Contact
 
