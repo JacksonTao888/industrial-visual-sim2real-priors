@@ -37,6 +37,10 @@
     "domain gap"
   ],
   "dateCreated": "2026",
+  "datePublished": "2026-05-28",
+  "identifier": "arXiv:2605.30581",
+  "doi": "10.48550/arXiv.2605.30581",
+  "url": "https://arxiv.org/abs/2605.30581",
   "codeRepository": "https://github.com/JacksonTao888/industrial-visual-sim2real-priors",
   "programmingLanguage": "LaTeX",
   "license": "UNLICENSED"
