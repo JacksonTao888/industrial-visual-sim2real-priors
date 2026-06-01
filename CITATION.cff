@@ -12,6 +12,13 @@ authors:
     affiliation: "George W. Woodruff School of Mechanical Engineering, Georgia Institute of Technology"
 type: article
 year: 2026
+doi: "10.48550/arXiv.2605.30581"
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2605.30581"
+  - type: url
+    value: "https://arxiv.org/abs/2605.30581"
+url: "https://arxiv.org/abs/2605.30581"
 repository-code: "https://github.com/JacksonTao888/industrial-visual-sim2real-priors"
 abstract: "This review organizes industrial visual sim-to-real by prior availability, distinguishing CAD-guided, boundary-prior, and CAD-unavailable regimes for industrial vision deployment."
 keywords:
